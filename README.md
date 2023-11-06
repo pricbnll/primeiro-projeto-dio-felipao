@@ -14,14 +14,14 @@ Meu primeiro projeto com prof. Felipão da DIO - Bootcamp Potência Tech iFood -
 
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 6.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+Se XP for menor do que 1.000 = Ferro  
+Se XP for entre 1.001 e 2.000 = Bronze  
+Se XP for entre 2.001 e 5.000 = Prata  
+Se XP for entre 6.001 e 7.000 = Ouro  
+Se XP for entre 7.001 e 8.000 = Platina  
+Se XP for entre 8.001 e 9.000 = Ascendente  
+Se XP for entre 9.001 e 10.000= Imortal  
+Se XP for maior ou igual a 10.001 = Radiante  
 
 ## Saída
 
@@ -31,11 +31,12 @@ Ao final deve se exibir uma mensagem:
 
 ### Como fiz:
 
-Fiz 2 códigos iguais em arquivos diferentes PARA:
+1. Alterei os valores doo nível prata para abranger de 50001 até 6000!
+2. Fiz 2 códigos iguais em arquivos diferentes PARA:
 
-HTML *"index.html"*: código que pedirá para colocar os datos nas caixas de **pop up** que aparecerá na tela rodando no Live Server pelo Chrome. Com o botão direito do mouse click em **"Abrir com Live Server"** se estiver instalado no VS Code
+-- HTML *"index.html"*: código que pedirá para colocar os datos nas caixas de **pop up** que aparecerá na tela rodando no Live Server pelo Chrome. Com o botão direito do                   mouse click em **"Abrir com Live Server"** se estiver instalado no VS Code
 
-JavaScript *"index.js"*: código ira ser exibido pelo **terminal** colocando **"node index.js"**, que é o caminho da pasta que ele ta.
+-- JavaScript *"index.js"*: código ira ser exibido pelo **terminal** colocando **"node index.js"**, que é o caminho da pasta que ele ta.
 
 ### O que aprendi:
 
