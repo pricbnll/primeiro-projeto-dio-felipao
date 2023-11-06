@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>DESAFIO FELIPÃO DIO</title>
+</head>
+<body>
+    <script>
+
+        let nome = prompt("Digite seu nome, por favor!");
+        let quantidadeExperiencia = Number(prompt("Qual o seu nível de experiência?")); 
+        let xp = "";
+
+        if (quantidadeExperiencia <= 1000) {
+            xp = "Ferro";
+        } else if (quantidadeExperiencia >= 1001 && quantidadeExperiencia <= 2000) {
+            xp = "Bronze";
+        } else if (quantidadeExperiencia >= 2001 && quantidadeExperiencia <= 5000) {
+            xp = "Prata";
+        } else if (quantidadeExperiencia >= 5001 && quantidadeExperiencia <= 7000) {
+            xp = "Ouro";
+        } else if (quantidadeExperiencia >= 7001 && quantidadeExperiencia <= 8000) {
+            xp = "Platina";
+        } else if (quantidadeExperiencia >= 8001 && quantidadeExperiencia <= 9000) {
+            xp  = "Ascendente";
+        } else if (quantidadeExperiencia >= 9001 && quantidadeExperiencia <= 10000) {
+            xp = "Imortal";
+        } else if (quantidadeExperiencia >= 10001) {
+            xp = "Radiante";
+        }
+
+        alert(`O herói de nome ${nome} está no nível de ${xp}!`);
+
+    </script>
+</body>
+</html>
+
+<!-- Testar no LiveServer -->
